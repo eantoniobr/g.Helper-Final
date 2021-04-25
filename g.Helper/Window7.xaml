@@ -1,0 +1,22 @@
+﻿<Window x:Class="g.Helper.Window7"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:g.Helper"
+        mc:Ignorable="d"
+        Title="Window4" Height="120.000" Width="259.000" Loaded="Window_Loaded" KeyDown="Window_KeyDown" AllowsTransparency="True" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" MouseDown="Window_MouseDown" Topmost="True">
+    <Window.Background>
+        <SolidColorBrush Color="White" Opacity="0.01"/>
+    </Window.Background>
+    <Grid>
+        <TextBox Name="pbfront2" HorizontalAlignment="Left" Height="20" Margin="10,40,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="117" Background="{x:Null}" FontWeight="Bold" FontFamily="Calibri" FontSize="16" HorizontalContentAlignment="Center" Foreground="White" IsReadOnly="True"/>
+        <TextBox Name="forcafront2" HorizontalAlignment="Left" Height="20" Margin="10,90,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="117" Background="{x:Null}" FontWeight="Bold" FontFamily="Calibri" FontSize="16" HorizontalContentAlignment="Center" Foreground="White" IsReadOnly="True"/>
+        <TextBox Name="forcaback2" HorizontalAlignment="Left" Margin="132,90,0,10" TextWrapping="Wrap" Text="TextBox" Width="117" Background="{x:Null}" FontWeight="Bold" FontFamily="Calibri" FontSize="16" HorizontalContentAlignment="Center" Foreground="White" IsReadOnly="True"/>
+        <TextBox Name="pbback2" HorizontalAlignment="Left" Height="20" Margin="132,40,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="117" Background="{x:Null}" FontWeight="Bold" FontFamily="Calibri" FontSize="16" HorizontalContentAlignment="Center" Foreground="White" IsReadOnly="True"/>
+        <Label Content="FRONT&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="117" Height="25" HorizontalContentAlignment="Center" Foreground="#FFFF8B00"/>
+        <Label Content="BACK" HorizontalAlignment="Left" Margin="132,10,0,85" Width="117" Height="25" HorizontalContentAlignment="Center" Foreground="#FFFF8B00"/>
+        <TextBox Name="ffpercent" HorizontalAlignment="Left" Height="20" Margin="10,65,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="117" Background="{x:Null}" FontWeight="Bold" FontFamily="Calibri" FontSize="16" HorizontalContentAlignment="Center" Foreground="White" IsReadOnly="True"/>
+        <TextBox Name="fbpercent" Height="20" Margin="132,65,10,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Background="{x:Null}" FontWeight="Bold" FontFamily="Calibri" FontSize="16" HorizontalContentAlignment="Center" Foreground="White" IsReadOnly="True"/>
+    </Grid>
+</Window>
